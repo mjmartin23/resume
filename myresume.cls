@@ -25,3 +25,22 @@
 {\large\scshape\raggedright}
 {}{0em}
 {}
+
+\let\oldSection\section
+\renewcommand{\section}{
+	\setlength{\parindent}{0pt}
+	\oldSection
+}
+
+\newcommand{\projecttype}[1]{
+	\textbf{#1}
+	\newline
+}
+
+\newcommand{\project}[4]{
+	#1, \textit{#2}\hfill\textbf{#3}
+	\vspace{-.75em}
+	\begin{itemize}
+		#4
+	\end{itemize}
+}
