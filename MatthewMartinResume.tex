@@ -4,8 +4,9 @@
 
 \documentclass{myresume}
 
-\usepackage{hyperref}
-\usepackage[margin=0.5in]{geometry}
+\usepackage[hidelinks]{hyperref}
+\usepackage{nopageno}
+\usepackage[tmargin=0.3in,left=0.5in,right=0.5in,bmargin=0.3in]{geometry}
 
 \begin{document}
 
@@ -13,7 +14,7 @@
 \vspace{-1.5em}
 \contact{6891 Mayflower Hill, Waterville, ME 04901}{\href{mailto:matt@matthewmartin.me}{matt@matthewmartin.me}}{(774)-392-5741}
 
-\vspace{-2em} % bring section header up
+\vspace{-1.5em} % bring section header up
 \section{Education}
 \textbf{Colby College}, Waterville, ME\hfill\textbf{Bachelor of Arts, May 2018}
 
@@ -58,8 +59,47 @@ Source code for all projects is available on \textbf{GitHub} at: \href{https://g
 
 \section{Coding Skills}
 
+\begin{minipage}[t]{0.33\textwidth}
+	\textbf{Skilled in}:
+	\begin{itemize}
+		\vspace{-.5em}\item Python
+		\vspace{-.75em}\item Java
+		\vspace{-.75em}\item HTML/CSS
+	\end{itemize}
+\end{minipage}
+\begin{minipage}[t]{0.33\textwidth}
+	\textbf{Experience with}:
+	\begin{itemize}
+		\vspace{-.5em}\item C/C++
+		\vspace{-.75em}\item Git
+		\vspace{-.75em}\item Unix shell
+	\end{itemize}
+\end{minipage}
+\begin{minipage}[t]{0.33\textwidth}
+	\textbf{Familiar with}:
+	\begin{itemize}
+		\vspace{-.5em}\item Javascript/jQuery
+		\vspace{-.75em}\item MySQL, PHP
+		\vspace{-.75em}\item Linux, Windows
+	\end{itemize}
+\end{minipage}
+
 \section{Employment}
 
+\job{Undergraduate Researcher}{North Carolina State University}{May - August 2016}{
+	\item Worked with \href{http://menzies.us}{Dr. Tim Menzies} researching hypotheses from industrial partners
+}
+\job{Teaching Assistant}{Colby College Computer Science Department}{February 2015 - present}{
+	\item Assist students with their computer science projects during class and outside of class
+}
+\job{Tennis Instructor}{Barnstable Yacht Club}{June 2011 - August 2015}{
+	\item Teach tennis to students from age 3 to 17 in the summer, organize daily lessons
+}
+
 \section{Activities}
+
+\activity{Member}{Colby Hackers}{2015 - present}
+\activity{Member}{Colby College Class Council}{2015 - present}
+\activity{Member}{Colby College Men's Tennis}{2014 - present}
 	
 \end{document}
