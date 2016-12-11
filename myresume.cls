@@ -48,7 +48,7 @@
 
 \newcommand{\job}[4]{
 	\textit{#1}, \textbf{#2}\hfill\textbf{#3}
-	\vspace{-.75em}
+	\vspace{-.5em}
 	\begin{itemize}
 		#4
 	\end{itemize}	
