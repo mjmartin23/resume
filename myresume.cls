@@ -5,7 +5,7 @@
 \usepackage{bold-extra}
 
 \newcommand{\name}[1]{
-	\begin{center}\bfseries\scshape\Huge
+	\begin{center}\scshape\Large
 	#1
 	\end{center}
 }
